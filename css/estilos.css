@@ -1,0 +1,143 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+body{
+    font-family: 'Gloock', serif;
+}
+
+.cardPosicion{
+    
+    margin-top: 100px;
+    width: 1000px;
+
+}
+
+
+@media (max-width: 770px) {
+    .cardPosicion {
+        margin-top: 0px;
+     
+    }
+}
+
+
+
+
+
+.fondoIndex{
+    background-image: url(../img/peakpx\ \(1\).jpg);
+    background-repeat: no-repeat;
+    
+    display: flex;
+    height: 600px;
+    
+        
+  
+}
+
+.cardSeccion{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin-top: 200px;
+   text-align: center;
+   background-color: rgb(255, 255, 255);
+   scroll-margin-top: 200px;
+}
+@media (max-width: 770px) {
+    .cardSeccion {
+        margin-top: 100px;
+     
+    }
+}
+
+.navbar{
+    height: 100px;
+    
+    
+}
+
+.h1Hola{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   margin-top: 400px;
+   background-color:#e5e5e5;
+   scroll-margin-top: 250px;
+   
+}
+@media (max-width: 468px) {
+    .h1Hola {
+        margin-top: 220px;
+     
+    }
+}
+
+.h2SobreMi{
+    text-align: center;
+    width: 70%;
+    
+    }
+
+
+    .body{
+        background-color:#e5e5e5;
+        font-family: 'Gloock', serif;
+    }
+
+
+
+ #experiencia{
+    background-color: #e5e5e5;
+ }
+
+ .cardForm{
+    margin: 30px;
+ }
+
+ .h1Exp{
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    font-size: 60px;
+    
+ }
+
+ .cardExp{
+    
+    
+    padding: 100px;
+    
+   
+}
+
+footer{
+    background-color: rgb(0, 0, 0);
+    color: white;
+    height: 400px;
+}
+.extraSection{
+    height: 400px;
+    background-color: #f8f9fa;
+}
+
+
+.extras{
+    font-size: 80px;
+    text-align: center;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    
+   
+
+}
+
+.h1Formacion{
+    font-size: 70px;
+}
+
+ 
